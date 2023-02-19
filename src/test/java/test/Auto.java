@@ -22,7 +22,7 @@ public class Auto {
 	}
 	
 	String verificarIntegridad() {
-		if(registro == motor.registro)
+		if(registro == Motor.registro)
 		{
 			for (Asiento i : this.asientos)
 			{
